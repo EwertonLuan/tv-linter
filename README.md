@@ -10,3 +10,16 @@
       "lint:fix": "eslint . --fix"
     }
     ```
+3. Install the required packages
+```sh
+$ npm install eslint babel-eslint eslint-plugin-react@latest --save-dev
+```
+
+4. For running eslint and jest
+```sh
+$ npm run test
+```
+And for running just eslint 
+```sh
+$ npm run lint
+```
